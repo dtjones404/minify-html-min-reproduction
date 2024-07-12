@@ -1,0 +1,27 @@
+{
+  "name": "@paypalcorp/min-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "dev": "node esbuild.mjs --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild-plugin-minify-html-literals": "^2.0.0",
+    "eslint": "^8.51.0",
+    "tslib": "^2.6.3",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "lit": "^3.0.0"
+  },
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  }
+}
